@@ -1,0 +1,117 @@
+.wc-bpnav{
+    font: 12px/14px arial,helvetica,Verdana,sans-serif;
+    color: #999;
+    text-align: left;
+
+}
+
+.bpn-nav-container{
+    position: relative;
+    float:right;
+    margin-left:2px;
+    margin-right: 2px;
+}
+
+.previous, .next, .bpn-separator, .bpn-arrow-previous, .bpn-arrow-next {
+    float: left;
+    position: relative;
+}
+.bpn-separator{
+
+    padding:12px;
+}
+
+.bpn-arrow-previous a:link, .bpn-arrow-previous a:visited{
+    background:url("images/arrow-left.png") 0 0 no-repeat;
+    padding-left:20px;
+}
+.bpn-arrow-previous a:hover, .bpn-arrow-previous a:active{
+    background:url("images/arrow-left.png") 0px -15px no-repeat;
+    padding-left:20px;
+}
+.bpn-arrow-next a:link, .bpn-arrow-next a:visited{
+    background:url("images/arrow-right.png") top right no-repeat;
+    padding-right:20px;
+}
+.bpn-arrow-next a:hover, .bpn-arrow-next a:active{
+    background:url("images/arrow-right.png") right -15px no-repeat;
+    padding-right:20px;
+}
+
+/* fa-angle-left */
+.previous .fa-bpn-default:before{
+    font-family: "FontAwesome";
+    position: relative;
+    padding-right: 10px;
+    content: '\f104';
+}
+/* fa-angle-right */
+.next .fa-bpn-default:after{
+    font-family: "FontAwesome";
+    position: relative;
+    padding-left: 10px;
+    content: '\f105';
+}
+
+/* fa-chevron-circle-left */
+.previous .fa-bpn-cc:before{
+    font-family: "FontAwesome";
+    position: relative;
+    padding-right: 10px;
+    content: '\f137';
+}
+/* fa-chevron-circle-right */
+.next .fa-bpn-cc:after{
+    font-family: "FontAwesome";
+    position: relative;
+    padding-left: 10px;
+    content: '\f138';
+}
+/* fa-arrow-left */
+.previous .fa-bpn-arrow:before{
+    font-family: "FontAwesome";
+    position: relative;
+    padding-right: 10px;
+    content: '\f060';
+}
+/* fa-arrow-right */
+.next .fa-bpn-arrow:after{
+    font-family: "FontAwesome";
+    position: relative;
+    padding-left: 10px;
+    content: '\f061';
+}
+/* fa-carret-square-left */
+.previous .fa-bpn-carretsquare:before{
+    font-family: "FontAwesome";
+    position: relative;
+    padding-right: 10px;
+    content: '\f191';
+}
+/* fa-carret-square-right */
+.next .fa-bpn-carretsquare:after{
+    font-family: "FontAwesome";
+    position: relative;
+    padding-left: 10px;
+    content: '\f152';
+}
+
+/* fa-backward */
+.previous .fa-bpn-step:before{
+    font-family: "FontAwesome";
+    position: relative;
+    padding-right: 10px;
+    content: '\f048';
+}
+/* fa-forward */
+.next .fa-bpn-step:after{
+    font-family: "FontAwesome";
+    position: relative;
+    padding-left: 10px;
+    content: '\f051';
+}
+
+
+
+
+
